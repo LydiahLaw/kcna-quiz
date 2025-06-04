@@ -838,6 +838,216 @@
       "D": "Profiles"
     },
     "correct_answer": "C"
+  },
+  {
+    "question": "What type of telemetry data represents a measurement sampled over time, often aggregated?",
+    "options": {
+      "A": "Metrics",
+      "B": "Traces",
+      "C": "Logs",
+      "D": "Events"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "question": "What type of telemetry data shows the path and duration of a request as it flows through multiple services?",
+    "options": {
+      "A": "Metrics",
+      "B": "Traces",
+      "C": "Logs",
+      "D": "Alerts"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question": "Which open-source monitoring system, graduated by the CNCF, is widely used for collecting and querying time-series metrics in Kubernetes?",
+    "options": {
+      "A": "Grafana",
+      "B": "Jaeger",
+      "C": "Prometheus",
+      "D": "Fluentd"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question": "How does Prometheus typically gather metrics from applications and infrastructure?",
+    "options": {
+      "A": "Pushing metrics to endpoints",
+      "B": "Pulling metrics via scraping",
+      "C": "Reading log files directly",
+      "D": "Using kernel probes"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question": "What language is used to write queries in Prometheus?",
+    "options": {
+      "A": "SQL",
+      "B": "PromQL",
+      "C": "JSONPath",
+      "D": "YAML"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question": "In cloud native cost management, what does 'FinOps' primarily focus on?",
+    "options": {
+      "A": "Optimizing application code",
+      "B": "Managing cloud spending",
+      "C": "Improving network security",
+      "D": "Automating deployments"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question": "Why can cost management be challenging in Kubernetes environments?",
+    "options": {
+      "A": "Lack of monitoring tools",
+      "B": "Shared resources & dynamic workloads",
+      "C": "Fixed infrastructure costs",
+      "D": "Infrequent deployments"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question": "What is the practice of using Git repositories as the single source of truth for defining and managing infrastructure and applications?",
+    "options": {
+      "A": "CI/CD",
+      "B": "DevOps",
+      "C": "GitOps",
+      "D": "Infrastructure as Code (IaC)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question": "Which core principle differentiates GitOps from general Infrastructure as Code (IaC)?",
+    "options": {
+      "A": "Using code for infra config",
+      "B": "Automating infrastructure tests",
+      "C": "Using Git as the source of truth",
+      "D": "Manual deployment approval"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question": "What does 'CI' stand for in the context of application delivery?",
+    "options": {
+      "A": "Continuous Integration",
+      "B": "Cluster Infrastructure",
+      "C": "Container Interface",
+      "D": "Cloud Instance"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "question": "What does 'CD' stand for in CI/CD?",
+    "options": {
+      "A": "Container Deployment",
+      "B": "Continuous Delivery/Deployment",
+      "C": "Cluster Discovery",
+      "D": "Centralized Dashboard"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question": "Which stage in a typical CI/CD pipeline for Kubernetes usually involves creating a container image?",
+    "options": {
+      "A": "Testing",
+      "B": "Building",
+      "C": "Deployment",
+      "D": "Monitoring"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question": "Which tool is commonly used in CI/CD pipelines to automate the build, test, and deployment processes?",
+    "options": {
+      "A": "Kubernetes",
+      "B": "Docker",
+      "C": "Jenkins / GitLab CI / GitHub Actions",
+      "D": "Prometheus"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question": "What is the primary goal of Application Delivery in a cloud native context?",
+    "options": {
+      "A": "To secure the cluster",
+      "B": "To monitor resource usage",
+      "C": "To reliably deploy & manage apps",
+      "D": "To provision infrastructure"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question": "In Kubernetes RBAC (Role-Based Access Control), what defines a set of permissions?",
+    "options": {
+      "A": "Role / ClusterRole",
+      "B": "ServiceAccount",
+      "C": "RoleBinding / ClusterRoleBinding",
+      "D": "User"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "question": "What object binds a Role or ClusterRole to a user, group, or ServiceAccount?",
+    "options": {
+      "A": "Secret",
+      "B": "ConfigMap",
+      "C": "NetworkPolicy",
+      "D": "RoleBinding / ClusterRoleBinding"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "question": "If you need a Pod to run on every single Node in the cluster (or a subset), which controller is most suitable?",
+    "options": {
+      "A": "Deployment",
+      "B": "StatefulSet",
+      "C": "DaemonSet",
+      "D": "Job"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question": "What is a primary difference between a Deployment and a StatefulSet?",
+    "options": {
+      "A": "StatefulSets manage Pods",
+      "B": "Deployments are for databases",
+      "C": "StatefulSets provide stable IDs",
+      "D": "Deployments use PVs"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question": "Which Kubernetes API object is used to manage external access to services in a cluster, typically HTTP/S?",
+    "options": {
+      "A": "Service (LoadBalancer type)",
+      "B": "NodePort Service",
+      "C": "Ingress",
+      "D": "ExternalName Service"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question": "What design pattern involves running an additional container within a Pod to provide auxiliary functions (like logging or monitoring) to the main application container?",
+    "options": {
+      "A": "Init Container",
+      "B": "Sidecar Container",
+      "C": "Ephemeral Container",
+      "D": "Job Container"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question": "What fundamental concept allows Kubernetes to maintain the desired state declared by the user?",
+    "options": {
+      "A": "Imperative Commands",
+      "B": "Control Loop / Reconciliation",
+      "C": "Manual Scaling",
+      "D": "Direct Node Access"
+    },
+    "correct_answer": "B"
   }
 ]
 
