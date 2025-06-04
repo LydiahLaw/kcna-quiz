@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kubernetes KCNA Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    h1 {
+      text-align: center;
+      color: #0077b6;
+    }
+
+    #quiz-container {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #timer {
+      text-align: right;
+      font-weight: bold;
+      color: #e63946;
+      margin-bottom: 10px;
+    }
+
+    .question-block {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin: 8px 0;
+    }
+
+    button {
+      margin: 10px 5px;
+      padding: 10px 20px;
+      border: none;
+      background-color: #0077b6;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:disabled {
+      background-color: #ccc;
+    }
+
+    .result {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Kubernetes KCNA Quiz</h1>
+
+  <div id="quiz-container">
+    <div id="timer">⏱️ 60:00</div>
+
+    <div class="question-block">
+      <p id="question">Loading question...</p>
+
+      <label><input type="radio" name="option" value="A" onclick="selectAnswer('A')" /> <span id="optionA"></span></label>
+      <label><input type="radio" name="option" value="B" onclick="selectAnswer('B')" /> <span id="optionB"></span></label>
+      <label><input type="radio" name="option" value="C" onclick="selectAnswer('C')" /> <span id="optionC"></span></label>
+      <label><input type="radio" name="option" value="D" onclick="selectAnswer('D')" /> <span id="optionD"></span></label>
+    </div>
+
+    <div>
+      <button id="prevBtn" onclick="prevQuestion()">Previous</button>
+      <button id="nextBtn" onclick="nextQuestion()">Next</button>
+      <button id="submitBtn" onclick="submitQuiz()" style="display: none;">Submit Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
