@@ -1,4 +1,4 @@
-# 🧠 KCNA Practice Quiz
+# KCNA Practice Quiz
 
 This is a simple, fun web-based quiz app I built to help me and others prepare for the Kubernetes and Cloud Native Associate (KCNA) exam. It loads a set of multiple-choice questions from a `questions.json` file and lets you answer them, navigate back and forth, and see your final score and explanations at the end.
 
@@ -29,12 +29,14 @@ kcna-quiz/
 ```bash
 git clone https://github.com/LydiahLaw/kcna-quiz.git
 cd kcna-quiz
+```
+
 
 Open index.html in your browser
 
 No server setup is needed. It's a static app built with just HTML, CSS, and JavaScript.
 
-Or visit the live site:
+## Or visit the live site:
 👉 https://lydiahlaw.github.io/kcna-quiz
 
 🧩 How It Works
@@ -82,7 +84,7 @@ Improve the UI/UX
 
 Add domain filtering or score breakdown
 
-📜 License
+##📜 License
 MIT — free to use, modify, and share.
 
 Data Source: KCNA Exam Question Dump
