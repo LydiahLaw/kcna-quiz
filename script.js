@@ -2,7 +2,7 @@ let questions = [];
 let currentQuestion = 0;
 let userAnswers = [];
 let timer;
-let timeLeft = 900; // 15 minutes in seconds
+let timeLeft = 5400; // 90 minutes (1hr 30min) in seconds
 
 // Load questions from the JSON file
 fetch('questions.json')
