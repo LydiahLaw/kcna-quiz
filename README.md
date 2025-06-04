@@ -5,7 +5,7 @@ This is a simple, fun web-based quiz app I built to help me and others prepare f
 ## 🚀 Features
 
 - ✅ Multiple-choice questions with options A–D
-- ✅ Timer (15 minutes by default)
+- ✅ Timer (1hr 30 minutes by default)
 - ✅ Navigation between questions (Next/Previous)
 - ✅ Submit button appears on the last question
 - ✅ Instant results with score, correct answers, and explanations
