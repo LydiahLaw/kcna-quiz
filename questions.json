@@ -738,7 +738,108 @@
       "D": "To backup volume data"
     },
     "correct_answer": "A"
+  },
+  {
+    "question": "Which mechanism allows Kubernetes to automatically adjust the number of Pods in a Deployment based on CPU utilization or custom metrics?",
+    "options": {
+      "A": "Vertical Pod Autoscaler (VPA)",
+      "B": "Cluster Autoscaler (CA)",
+      "C": "Horizontal Pod Autoscaler (HPA)",
+      "D": "Node Problem Detector (NPD)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question": "What is the primary goal of the Cluster Autoscaler?",
+    "options": {
+      "A": "Scale Pod replicas",
+      "B": "Scale cluster Nodes",
+      "C": "Scale Persistent Volumes",
+      "D": "Scale Service endpoints"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question": "What term describes an architectural approach where applications are built as small, independent services that run in their own processes?",
+    "options": {
+      "A": "Monolithic",
+      "B": "Microservices",
+      "C": "Serverless",
+      "D": "N-Tier"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question": "What does 'Serverless' computing primarily abstract away from the developer?",
+    "options": {
+      "A": "Networking",
+      "B": "Storage",
+      "C": "Server Management",
+      "D": "Operating System choice"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question": "Which organization hosts Kubernetes and promotes the growth of the cloud native ecosystem?",
+    "options": {
+      "A": "Linux Foundation (LF)",
+      "B": "Apache Software Foundation (ASF)",
+      "C": "Cloud Native Computing Foundation (CNCF)",
+      "D": "Open Source Initiative (OSI)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question": "What is the benefit of using open standards in cloud native technologies?",
+    "options": {
+      "A": "Vendor lock-in",
+      "B": "Increased complexity",
+      "C": "Interoperability & Portability",
+      "D": "Reduced security"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question": "In a typical cloud native environment, which persona is primarily responsible for designing and building the application?",
+    "options": {
+      "A": "Operator",
+      "B": "Developer",
+      "C": "Site Reliability Engineer (SRE)",
+      "D": "Security Engineer"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question": "Which persona is typically focused on the reliability, scalability, and maintenance of the underlying Kubernetes platform?",
+    "options": {
+      "A": "End User",
+      "B": "Application Developer",
+      "C": "Platform Operator / SRE",
+      "D": "Data Scientist"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question": "What are the three pillars of observability in cloud native systems?",
+    "options": {
+      "A": "Alerts, Dashboards, Reports",
+      "B": "Logs, Metrics, Traces",
+      "C": "Monitoring, Logging, Profiling",
+      "D": "Scaling, Scheduling, Storing"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question": "What type of telemetry data records discrete events that happened at a specific time?",
+    "options": {
+      "A": "Metrics",
+      "B": "Traces",
+      "C": "Logs",
+      "D": "Profiles"
+    },
+    "correct_answer": "C"
   }
 ]
+
 
   
