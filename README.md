@@ -43,13 +43,9 @@ No server setup is needed. It's a static app built with just HTML, CSS, and Java
 Questions are loaded from questions.json
 
 Each question must include:
-
 "question": the question text
-
 "optionA" to "optionD": answer choices
-
 "correctAnswer": the correct letter (e.g., "B")
-
 "explanation": (optional) explanation shown after results
 
 {
@@ -64,9 +60,7 @@ Each question must include:
 
 Hosting on GitHub Pages
 Push your code to a GitHub repository
-
 Go to Settings > Pages
-
 Under “Source,” select the main branch and root (/)
 
 Save — GitHub will publish your site at:
@@ -77,14 +71,14 @@ I'm learning cloud engineering and prepping for the KCNA exam. I wanted to creat
 
 🙌 Contributing
 Feel free to fork and improve:
-
 Add more questions to questions.json
-
 Improve the UI/UX
-
 Add domain filtering or score breakdown
 
 ##📜 License
 MIT — free to use, modify, and share.
 
-Data Source: KCNA Exam Question Dump
+## 📜 License
+MIT — free to use, modify, and share.
+
+**Data Source:** [KCNA Exam Question Dump (Google Sheet)](https://docs.google.com/spreadsheets/d/1HsBaU3A6Md8IfRMWyt2vU_nInjMIsDsZtpg8eRxqdRg/edit?gid=0#gid=0)
