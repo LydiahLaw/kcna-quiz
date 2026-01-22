@@ -39,7 +39,7 @@ No server setup is needed. It's a static app built with just HTML, CSS, and Java
 ## Or visit the live site:
 👉 https://lydiahlaw.github.io/kcna-quiz
 
-🧩 How It Works
+How It Works
 Questions are loaded from questions.json
 
 Each question must include:
@@ -47,6 +47,8 @@ Each question must include:
 "optionA" to "optionD": answer choices
 "correctAnswer": the correct letter (e.g., "B")
 "explanation": (optional) explanation shown after results
+
+```bash
 
 {
   "question": "What is the function of a StorageClass in Kubernetes?",
@@ -57,8 +59,9 @@ Each question must include:
   "correctAnswer": "A",
   "explanation": "A StorageClass defines how a storage volume is dynamically provisioned in Kubernetes."
 }
+```
 
-Hosting on GitHub Pages
+### Hosting on GitHub Pages
 Push your code to a GitHub repository
 Go to Settings > Pages
 Under “Source,” select the main branch and root (/)
@@ -75,7 +78,7 @@ Add more questions to questions.json
 Improve the UI/UX
 Add domain filtering or score breakdown
 
-##📜 License
+## License
 MIT — free to use, modify, and share.
 
 **Data Source:** [KCNA Exam Question Dump (Google Sheet)](https://docs.google.com/spreadsheets/d/1HsBaU3A6Md8IfRMWyt2vU_nInjMIsDsZtpg8eRxqdRg/edit?gid=0#gid=0)
