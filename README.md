@@ -2,7 +2,7 @@
 
 This is a simple, fun web-based quiz app I built to help me and others prepare for the Kubernetes and Cloud Native Associate (KCNA) exam. It loads a set of multiple-choice questions from a `questions.json` file and lets you answer them, navigate back and forth, and see your final score and explanations at the end.
 
-## 🚀 Features
+## Features
 
 - ✅ Multiple-choice questions with options A–D
 - ✅ Timer (1hr 30 minutes by default)
@@ -12,7 +12,7 @@ This is a simple, fun web-based quiz app I built to help me and others prepare f
 - ✅ Mobile responsive layout
 - ✅ Fully static (can be hosted on GitHub Pages)
 
-## 📁 Folder Structure
+## Folder Structure
 
 kcna-quiz/
 ├── index.html
@@ -22,7 +22,7 @@ kcna-quiz/
 └── README.md
 
 
-## 🛠️ How to Use
+## How to Use
 
 1. **Clone the repository**
 
@@ -66,19 +66,16 @@ Under “Source,” select the main branch and root (/)
 Save — GitHub will publish your site at:
 https://yourusername.github.io/your-repo-name
 
-🧠 Why I Built This
+ Why I Built This
 I'm learning cloud engineering and prepping for the KCNA exam. I wanted to create a small real-world project that uses frontend skills, JSON data, GitHub Pages hosting, and gives me something practical and interactive to share in my portfolio. I also wanted something others could use too!
 
-🙌 Contributing
+ Contributing
 Feel free to fork and improve:
 Add more questions to questions.json
 Improve the UI/UX
 Add domain filtering or score breakdown
 
 ##📜 License
-MIT — free to use, modify, and share.
-
-## 📜 License
 MIT — free to use, modify, and share.
 
 **Data Source:** [KCNA Exam Question Dump (Google Sheet)](https://docs.google.com/spreadsheets/d/1HsBaU3A6Md8IfRMWyt2vU_nInjMIsDsZtpg8eRxqdRg/edit?gid=0#gid=0)
